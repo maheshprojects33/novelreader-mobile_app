@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/ivThumbnail"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/alchemist_" />
+
+        <Button
+            android:id="@+id/btnCurrentlyReading"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivThumbnail"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/ivThumbnail"
+            android:text="@string/currentlyReading"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnWantToRead"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnCurrentlyReading"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/ivThumbnail"
+            android:text="@string/wantToRead"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnAlreadyRead"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnWantToRead"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/ivThumbnail"
+            android:text="@string/alreadyRead"
+            android:textColor="#FFF" />
+
+        <Button
+            android:id="@+id/btnAddTo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnAlreadyRead"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@+id/ivThumbnail"
+            android:text="@string/addToFavorites"
+            android:textColor="#FFF" />
+
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAddTo"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/amethysta"
+            android:text="@string/book_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBookTitle"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amethysta"
+            android:text="@string/book_author"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvPages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvBookAuthor"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amethysta"
+            android:text="@string/pages"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvPages"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/amethysta"
+            android:text="@string/summary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtBookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvBookTitle"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/tvPages"
+            android:fontFamily="@font/amethysta"
+            android:text="@string/the_alchemist"
+            android:textColor="#03A9F4"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtBookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvBookAuthor"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/tvPages"
+            android:text="TextView"
+            android:textColor="#03A9F4"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtPages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tvPages"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/tvPages"
+            android:text="TextView"
+            android:textColor="#03A9F4"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvSummary"
+            android:layout_margin="20dp">
+
+
+
+                <TextView
+                    android:id="@+id/tvLongDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/alchemist_desc"
+
+                    android:textColor="#03A9F4"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

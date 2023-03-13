@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Novel Reader</string>
+
+    //Layout Strings
+    <string name="title">My Book Library</string>
+    <string name="see_all">See All Books</string>
+    <string name="currently_Reading">Currently Reading Books</string>
+    <string name="already_read">Already Read Books</string>
+    <string name="wish_list">Your WishList</string>
+    <string name="favorites">See Your Favorites</string>
+    <string name="about">ABOUT</string>
+    <string name="develop">Developed by <b>Mahesh</b> as a First Project</string>
+
+    //Buttons Strings
+    <string name="currentlyReading">Currently Reading</string>
+    <string name="wantToRead">Want To Read</string>
+    <string name="alreadyRead">Already Read</string>
+    <string name="addToFavorites">Add To Favorites</string>
+
+    //Book Names
+    <string name="book_1">My Book</string>
+
+    //Item Sample Layout Strings
+    <string name="book_title">Book Title</string>
+    <string name="book_author">Book Author</string>
+    <string name="pages">No. of Pages</string>
+    <string name="summary">Summary of Novel</string>
+    <string name="book_description">Just a Short Description Just a Short Description Just a Short Description Just a Short Description Just a Short Description</string>
+
+    //Book Names
+    <string name="the_alchemist">The Alchemist</string>
+    <string name="Eleven_Minutes">Eleven Minutes</string>
+    <string name="A_Lot_Like_Love">A Lot Like Love</string>
+    <string name="Its_First_Love">It"'"s First Love ". . ."</string>
+    <string name="My_Autobiography">My Autobiography</string>
+    <string name="The_Battle_of_Life">The Battle of Life</string>
+    <string name="Your_Dreams_Are_Mine_Now">Your Dreams Are Mine Now</string>
+    <string name="The_Mistakes_of_My_Life">The 3 Mistakes of My Life</string>
+
+    //Book Descriptions
+    <string name="alchemist_desc">The Alchemist follows the journey of an Andalusian shepherd boy named Santiago. Believing a recurring dream to be prophetic, he asks a Gypsy fortune teller in the nearby town about its meaning. The woman interprets the dream as a prophecy telling the boy that he will discover a treasure at the Egyptian pyramids.
+
+Early into his journey, he meets an old king named Melchizedek, or the king of Salem, who tells him to sell his sheep, so as to travel to Egypt, and introduces the idea of a Personal Legend. Your Personal Legend "is what you have always wanted to accomplish. Everyone, when they are young, knows what their Personal Legend is.
+
+Early in his arrival to Africa, a man who claims to be able to take Santiago to the pyramids instead robs him of what money he had made from selling his sheep. Santiago then embarks on a long path of working for a crystal merchant so as to make enough money to fulfill his personal legend and go to the pyramids.
+
+Along the way, the boy meets an Englishman who has come in search of an alchemist and continues his travels in his new companion's company. When they reach an oasis, Santiago meets and falls in love with an Arabian girl named Fatima, to whom he proposes marriage. She promises to do so only after he completes his journey. Frustrated at first, he later learns that true love will not stop nor must one sacrifice to it one's personal destiny, since to do so robs it of truth.
+
+The boy then encounters a wise alchemist who also teaches him to realize his true self. Together, they risk a journey through the territory of warring tribes, where the boy is forced to demonstrate his oneness with "the soul of the world" by turning himself into a simoom before he is allowed to proceed. When he begins digging within sight of the pyramids, he is robbed yet again, but accidentally learns from the leader of the thieves that the treasure he sought all along was in the ruined church where he had his original dream.
+    </string>
+    <string name="ElevenMinutes_desc">Eleven Minutes is the story of Maria, a young girl from a remote village of Brazil, whose first encounters with love had left her heartbroken, goes to seek her fortune in Switzerland. She works for a time in a nightclub but soon becomes dissatisfied and after a heated discussion with her manager one night, she quits her job. She tries to become a model but is unsuccessful. Because she is running out of money, she accepts 1000 francs from an Arab man to spend the night with him. She then decides to become a prostitute and ends up in a brothel on Rue de Berne, the heart of Geneva"'"s red-light district
+    Eleven Minutes is the story of Maria, a young girl from a remote village of Brazil, whose first encounters with love had left her heartbroken, goes to seek her fortune in Switzerland. She works for a time in a nightclub but soon becomes dissatisfied and after a heated discussion with her manager one night, she quits her job. She tries to become a model but is unsuccessful. Because she is running out of money, she accepts 1000 francs from an Arab man to spend the night with him. She then decides to become a prostitute and ends up in a brothel on Rue de Berne, the heart of Geneva"'"s red-light district</string>
+    <string name="ALotLikeLove_desc">A Lot Like Love is a 2005 American romantic comedy-drama film directed by Nigel Cole and starring Ashton Kutcher and Amanda Peet. The screenplay by Colin Patrick Lynch focuses on two individuals whose relationship slowly evolves from lust to friendship to romance over the course of seven years.A Lot Like Love is a 2005 American romantic comedy-drama film directed by Nigel Cole and starring Ashton Kutcher and Amanda Peet. The screenplay by Colin Patrick Lynch focuses on two individuals whose relationship slowly evolves from lust to friendship to romance over the course of seven years.A Lot Like Love is a 2005 American romantic comedy-drama film directed by Nigel Cole and starring Ashton Kutcher and Amanda Peet. The screenplay by Colin Patrick Lynch focuses on two individuals whose relationship slowly evolves from lust to friendship to romance over the course of seven years. </string>
+    <string name="ItsFirstLove_desc">It"'"s First Love ". . ."</string>
+    <string name="MyAutobiography_desc">In a fascinating psychological twist, Chaplin is most forthcoming when documenting his heartbreaking childhood and grueling adolescence in turn-of-the century London; here lie the kind of brutal memories that may have stayed carefully guarded, if not outright repressed secrets for others. Not for Chaplin, though, who masterfully narrates a youth of Dickensian dimensions, including abject poverty, a drunken, absent father, a loving mother literally going mad, life on the streets, even a stay in the workhouse. It"'"s horrible and wrenching, and Chaplin goes to the races with it all, turning tragedy into gripping drama. These pages crackle with emotion, poetry, and raw feeling. By the time Chaplin has found his footing as a comic and later makes his initial visit to the U.S. with a British touring company, the reader is in his grips, downright hungry for his recounting of the rags-to-riches payoff just around the corner. Chaplin then abruptly closes the door to the banquet room.</string>
+    <string name="TheBattleOfLife_desc">This novel basically depicts the battles one faces in life and winning them. Unlike his other stories, this does not have any supernatural reference. The story is basically divided into three parts. This story in some manner is similar to The Cricket on the Hearth and has a happing ending too.
+The story begins by describing the place, which is actually a setting in an English village that stands on the site of a historic battle. Some characters in the story refers to battle as a symbol and hence the name of the story. It begins by narrating the life of a widower father, Dr. Jeddler and his two daughters, Grace and Marion along with their two servants Clemency Newcome and Ben Britain. They all live happily at the English village.</string>
+    <string name="YourDreamsAreMineNow_desc">The novel Your Dreams are Mine Now is a powerful and poignant love story that explores the romantic relationship between Rupali and Arun. They are complete opposites and have nothing in common when it comes to their interests and priorities in life.
+Rupali is a small town girl and an idealist, whereas Arun is a Delhi guy with keen interest in youth politics. A major scandal on the college campus brings them together and somewhere along the line they fall in love with each other. But their fight against evil comes at a heavy price which becomes the ultimate test of their lives.
+Set against the backdrop of heavy campus politics in Delhi University, Your Dreams Are Mine Now is an innocent love story that will make for an engaging read for those who enjoy love stories.</string>
+    <string name="TheMistakesOfMyLife_desc">In late-2000, a young boy in Ahmedabad called Govind dreamt of having a business. To accomodate his friends Ish and Omi’s passion, they open a cricket shop. Govind wants to make money and thinks big.  Ish is all about nurturing Ali, the batsman with a rare gift. Omi knows his limited capabiltiies and just wants to be with his friends. However, nothing comes easy in a turbulent city. To realize their goals, they will have to face it all – religious politics, earthquakes, riots, unacceptable love  and above all,  their own mistakes. Will they make it? Can an individual’s dreams overcome the nightmares offered by real life? Can we succeed despite a few mistakes?
+
+Based on real events, from the bestselling author of “Five Point Someone” and “One Night @ the call centre”, comes another dark, witty tale about modern India.</string>
+
+
+    //Message from bds
+    <string name="bds_msg">"""I LOVE YOU VERY MUCH BDS"""</string>
+</resources>

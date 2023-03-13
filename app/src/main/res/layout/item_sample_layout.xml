@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="25dp"
+    android:id="@+id/parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/collapseCV">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivThumbnail"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_launcher_background"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/tvBookTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/ivThumbnail"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="@string/book_title"
+                android:textColor="#FFF"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/ivThumbnail"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tvBookTitle"
+                android:fontFamily="@font/miniver"
+                android:text="Written By"
+                android:textColor="@color/orange"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/tvBookAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/ivThumbnail"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/tvAuthor"
+                android:fontFamily="@font/miniver"
+                android:text="@string/book_author"
+                android:textColor="#00BCD4"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/ivDownArrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_down_arrow"
+                android:layout_below="@id/ivThumbnail"
+                android:layout_centerHorizontal="true"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/expandCV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_below="@id/collapseCV"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvShortDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/book_description"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivUpArrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_up_arrow"
+                android:layout_below="@id/tvShortDescription"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

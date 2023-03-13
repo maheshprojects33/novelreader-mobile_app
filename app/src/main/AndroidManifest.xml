@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.java.novelreader">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/profile"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/profile"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PdfView"></activity>
+        <activity android:name=".Book_Activity" />
+        <activity android:name=".All_Books" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
